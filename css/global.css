@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'zelda';
+    src: url(/font/zelda.otf) format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+.font-zelda{
+    font-family: 'zelda', sans-serif;
+}
+.font-times {
+    font-family: 'times new roman', times,serif;
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+section {
+    padding-bottom:100px;
+    padding-top:100;
+}
+
